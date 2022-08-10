@@ -1,0 +1,32 @@
+postgresql kurduktan sonra sudo -i -u postgres ile girdik arkasindan psql yazdik
+
+=# CREATE USER librarian;
+CREATE ROLE
+=# SELECT usename FROM pg_user;
+  usename
+-----------
+ postgres
+ librarian
+(2 rows)
+
+
+view all USERS
+
+=# \du
+                             List of roles
+ Role name |                   Attributes                   | Member of
+-----------+------------------------------------------------+-----------
+ librarian |                                                | {}
+ postgres  | Superuser, Create role, Create DB, Replication | {}
+
+
+ALTER USER role_specification WITH OPTION1 OPTION2 OPTION3;
+
+to create DB we used sql statement
+CREATE DATABASE databasename; 
+
+to grant database to user 
+Grant all privileges on the database:
+
+GRANT ALL PRIVILEGES ON DATABASE database_name TO username;
+

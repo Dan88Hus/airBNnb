@@ -1,5 +1,6 @@
 postgresql kurduktan sonra sudo -i -u postgres ile girdik arkasindan psql yazdik
 
+
 =# CREATE USER librarian;
 CREATE ROLE
 =# SELECT usename FROM pg_user;

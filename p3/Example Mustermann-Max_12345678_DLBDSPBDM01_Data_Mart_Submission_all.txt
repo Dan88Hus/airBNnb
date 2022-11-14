@@ -1,0 +1,10 @@
+Example Mustermann-Max_12345678_DLBDSPBDM01_Data_Mart_Submission_all.zip
+
+Main directory (name of the zip folder) -> Name: Last_Name-First_Name_Matriculation_Course
+o Subdirectory -> Name: 01-Concept
+o Subdirectory -> Name: 02-Development
+o Subdirectory -> Name: 03-Finalisation
+
+For the performance-relevant submissions on “PebblePad”:
+Name-FirstName_MatrNo_ Course _P(hase)-3_S(ubmission)
+Example: Mustermann-Max_12345678_ DLBDSPBDM01_P3_S
